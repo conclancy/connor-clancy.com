@@ -10,6 +10,10 @@ def index():
 def experience():
     return render_template('experience.html')
 
+@app.route('/education')
+def education():
+    return render_template('education.html')
+
 if __name__ == '__main__':
     app.debug = True
     app.run()
