@@ -1,29 +1,33 @@
 <!DOCTYPE html> 
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark " style="padding-left: 10%; padding-right: 10%;">
-    <a class="navbar-brand" href="/">Connor Clancy</a>
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="padding-left: 15%; padding-right: 15%;">
+    <a class="navbar-brand" href="/" style="font-size: 24pt;">Connor Clancy</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <!--float right items-->
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="/experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/education">Education</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Projects
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="https://github.com/conclancy/connor_clancy_website">My Website</a>
-            <a class="dropdown-item" href="#">Another Site</a>
-          </div>
-        </li>
       </ul>
-      <span class="span-inline">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Resume</button>
-      </span>
+
+      <!--float left items-->
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/experience" style="font-size: 14pt;">Experience</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="/education" style="font-size: 14pt;">Education</a>
+        </li>
+
+        <!--logos https://www.w3schools.com/icons/fontawesome_icons_brand.asp-->
+        <a href="https://www.linkedin.com/in/conclancy/" target="_blank">
+          <i class="fa fa-linkedin-square" target="_blank" style="font-size:36px; color:whitesmoke; padding-left: 20px;padding-right: 20px"></i>
+        </a>
+        <a href="https://github.com/conclancy" target="_blank">
+          <i class="fa fa-github" href="" style="font-size:36px; color:whitesmoke; padding-right: 20px"></i>
+        </a>
+        <a href="/resume" target="_blank">
+          <button class="btn btn-outline-success" type="button">Resume</button>
+        </a>
+      </ul>
     </div>
   </nav>
