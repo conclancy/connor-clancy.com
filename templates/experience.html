@@ -2,15 +2,15 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<div class="container-fluid" style="padding-top: 10px;">
+<div class="container-fluid" style="padding-top: 10px; padding-bottom: 100px">
     <h1>Professional Experience</h1>
     <div class="container">
         <img class="float-left" style="width: 200px" src="../static/wayfair.png">
     </div>
     <div class="clearfix"></div>
     <div class="container-fluid">
-        <h4 class="float-left">Manager, Data Integrity</h4>
-        <h4 class="float-right">September 2019 - Present</h4>
+        <h4 class="float-left" style="font-size: 2vw;">Manager, Data Integrity</h4>
+        <h4 class="float-right" style="font-size: 2vw;">September 2019 - Present</h4>
     </div>
     <div class="clearfix"></div>
     <div style="margin-left: 10px; margin-right: 5px;">
@@ -28,7 +28,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="container-fluid">
-        <h4 class="float-left">Senior Data Analyst, Data Governance</h4>
+        <h4 class="experience-title">Senior Data Analyst, Data Governance</h4>
         <h4 class="float-right">July 2018 - September 2019</h4>
     </div>
     <div class="clearfix"></div>
@@ -73,32 +73,31 @@
     </div>
     <div class="clearfix"></div>
     <h1>Internship Experience</h1>
-    <div class="container">
-        <div class="container", style="float:left; width:33.3%; border:1px; padding:10px; box-sizing:border-box;">
-            <img class="float-left", style="height:200px", src="../static/cummins_raw.png">
-            <div class="clearfix"></div>
-            <ul style="display:inline-block; padding-top:10px; text-align:center;">
-                <li>Summer 2014</li>
-                <li>Summer 2015</li>
-            </ul>
-            <div class="clearfix"></div>
+    <div class="container-fluid" style="border:1px; padding:10px; max-height: 350px; overflow: hidden">
+        <div class="container-fluid" style="float:left; width:33.3%; box-sizing:border-box;">
+            <div class="container-fluid" style="display: inline-block; vertical-align: top; text-align: center;">
+                <img style="width: 100%; margin:0 auto;", src="../static/cummins_raw.png">
+                <br>
+                <a>Summer 2014</a>
+                <br>
+                <a>Summer 2015</a>
+            </div>
         </div>
-        <div class="container", style="float:left; width:33.3%; border:1px; padding:10px; box-sizing:border-box;">
-            <img class="float-left", style="height:200px; align-content:center;", src="../static/harley2.png">
-            <div class="clearfix"></div>
-            <ul style="display:inline-block; padding-top:10px; text-align:center;">
-                <li>Fall 2014</li>
-            </ul>
-            <div class="clearfix"></div>
+        <div class="container-fluid" style="float:left; width:33.3%; box-sizing:border-box;">
+            <div class="container-fluid" style="display: inline-block; text-align: center;">
+                <img style="width: 100%; margin:0 auto; vertical-align: center;", src="../static/harley2.png">
+                <br>
+                <a>Winter 2014</a>
+            </div>
         </div>
-        <div class="container", style="float:left; width:33.3%; border:1px; padding:10px; box-sizing:border-box;">
-            <img class="float-left", style="height:200px", src="../static/miller_raw.jpeg">
-            <div class="clearfix"></div>
-            <ul style="display:inline-block; padding-top:10px; text-align:center;">
-                <li>Fall 2015</li>
-            </ul>
-            <div class="clearfix"></div>
+        <div class="container-fluid" style="float:left; width:33.3%; box-sizing:border-box;">
+            <div class="container-fluid" style="display: inline-block; vertical-align: middle; text-align: center;">
+                <img style="width: 100%; margin:0 auto;", src="../static/miller_raw.jpeg">
+                <br>
+                <a>Winter 2015</a>
+            </div>
         </div>
     </div>
+    <div class="clearfix"></div>
 </div>
 {% endblock %}

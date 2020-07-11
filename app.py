@@ -20,5 +20,5 @@ def resume():
     # https://stackoverflow.com/questions/18281433/flask-handling-a-pdf-as-its-own-page
 
 if __name__ == '__main__':
-    #app.debug = True
+    app.debug = True
     app.run()
