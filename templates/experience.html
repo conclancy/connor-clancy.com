@@ -2,102 +2,121 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-<div class="container-fluid" style="padding-top: 10px; padding-bottom: 100px">
+<div class="container-fluid" style="padding-top: 10px; padding-bottom: 100px; margin-left: 10px; margin-right: 20px;">
     <h1>Professional Experience</h1>
-    <div class="container">
-        <img class="float-left" style="width: 200px" src="../static/wayfair.png">
+    <div class="container-fluid" style="overflow: hidden">
+        <div class="row">
+            <img class="float-left" style="width: 200px" src="../static/wayfair.png">
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4 class="experience-title">Manager, Data Integrity</h4>
+            </div>
+            <div class="col">
+                <h4 class="experience-date">September 2019 - Present</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="experience-body">
+                <ul>
+                    <li> 
+                        Led a cross-functional team of business users, data scientists, and computer engineers to improve supply chain data quality and visibility with saving valued at $10 million annually.
+                    </li>
+                    <li>
+                        Reduced manual effort required in inventory planning process by 90%, and allowed 3 full-time employees to be redeployed, by closing the gap between the inventory planning system and product catalog data.
+                    </li>
+                    <li>
+                        Improved team organization by developing a process to track projects requirements, tasks, manage deadlines, and monitor KPIs.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4 class="experience-title">Senior Data Analyst, Data Governance</h4>
+            </div>
+            <div class="col">
+                <h4 class="experience-date">July 2018 - September 2019</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="experience-body">
+                <ul>
+                    <li>
+                        Gathered and aligned requirements from 8 business stakeholder teams to create a single source-of-truth for supply chain data storage and access with an annualized saving of $4 million.
+                    </li>
+                    <li>
+                        Decreased shipping cost variance by 54% by building a feedback loop to capture, store, and use carrier invoice data to inform future order shipping cost estimates.
+                    </li>
+                    <li>
+                        Developed process documentation and data definitions to ensure all metrics and KPIs easily measured and accessed by stakeholders.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <img class="float-left" style="width: 200px" src="../static/cree_raw.png">
+        </div>
+        <div class="row">
+            <div class="col">
+                <h4 class="experience-title">Data Analyst II, Operations</h4>
+            </div>
+            <div class="col">
+                <h4 class="experience-date">January 2016 - July 2019</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="experience-body">
+                <ul>
+                    <li>
+                        Built work order scheduling SQL database to reduce the amount of manual data gathering required for work order creation. Reduced daily scheduling time from 24 hours to 6 hours.
+                    </li>
+                    <li>
+                        Led a project reducing packaging inventory by 95% by working with suppliers to set up a just-in-time delivery system. A daily report was created to show packaging requirements for the following day’s production.
+                    </li>
+                    <li>
+                        Decreased average work order lead time by 3 day while decreasing inventory by 10% through an automated model that used historical demand to plan safety stock levels.
+                    </li>
+                    <li>
+                        Conducted training sessions for Value Stream Mapping, Transactional Process Improvement, 6S, 8D Problem Solving, and Risk Residual Reduction (R3) programs
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-    <div class="clearfix"></div>
-    <div class="container-fluid">
-        <h4 class="float-left" style="font-size: 2vw;">Manager, Data Integrity</h4>
-        <h4 class="float-right" style="font-size: 2vw;">September 2019 - Present</h4>
-    </div>
-    <div class="clearfix"></div>
-    <div style="margin-left: 10px; margin-right: 5px;">
-        <ul>
-            <li> 
-                Led a cross-functional team of business users, data scientists, and computer engineers to improve supply chain data quality and visibility with saving valued at $10 million annually.
-            </li>
-            <li>
-                Reduced manual effort required in inventory planning process by 90%, and allowed 3 full-time employees to be redeployed, by closing the gap between the inventory planning system and product catalog data.
-            </li>
-            <li>
-                Improved team organization by developing a process to track projects requirements, tasks, manage deadlines, and monitor KPIs.
-            </li>
-        </ul>
-    </div>
-    <div class="clearfix"></div>
-    <div class="container-fluid">
-        <h4 class="experience-title">Senior Data Analyst, Data Governance</h4>
-        <h4 class="float-right">July 2018 - September 2019</h4>
-    </div>
-    <div class="clearfix"></div>
-    <div style="margin-left: 10px; margin-right: 5px;">
-        <ul>
-            <li>
-                Gathered and aligned requirements from 8 business stakeholder teams to create a single source-of-truth for supply chain data storage and access with an annualized saving of $4 million.
-            </li>
-            <li>
-                Decreased shipping cost variance by 54% by building a feedback loop to capture, store, and use carrier invoice data to inform future order shipping cost estimates.
-            </li>
-            <li>
-                Developed process documentation and data definitions to ensure all metrics and KPIs easily measured and accessed by stakeholders.
-            </li>
-        </ul>
-    </div>
-    <div class="clearfix"></div>
-    <div class="container">
-        <img class="float-left" style="width: 200px" src="../static/cree_raw.png">
-    </div>
-    <div class="clearfix"></div>
-    <div class="container-fluid">
-        <h4 class="float-left">Data Analyst II, Supply Chain & Operations</h4>
-        <h4 class="float-right">January 2016 - July 2019</h4>
-    </div>
-    <div class="clearfix"></div>
-    <div style="margin-left: 10px; margin-right: 5px;">
-        <ul>
-            <li>
-                Built work order scheduling SQL database to reduce the amount of manual data gathering required for work order creation. Reduced daily scheduling time from 24 hours to 6 hours.
-            </li>
-            <li>
-                Led a project reducing packaging inventory by 95% by working with suppliers to set up a just-in-time delivery system. A daily report was created to show packaging requirements for the following day’s production.
-            </li>
-            <li>
-                Decreased average work order lead time by 3 day while decreasing inventory by 10% through an automated model that used historical demand to plan safety stock levels.
-            </li>
-            <li>
-                Conducted training sessions for Value Stream Mapping, Transactional Process Improvement, 6S, 8D Problem Solving, and Risk Residual Reduction (R3) programs
-            </li>
-        </ul>
-    </div>
-    <div class="clearfix"></div>
     <h1>Internship Experience</h1>
+    <!--https://getbootstrap.com/docs/4.0/layout/grid/-->
     <div class="container-fluid" style="border:1px; padding:10px; max-height: 350px; overflow: hidden">
-        <div class="container-fluid" style="float:left; width:33.3%; box-sizing:border-box;">
-            <div class="container-fluid" style="display: inline-block; vertical-align: top; text-align: center;">
-                <img style="width: 100%; margin:0 auto;", src="../static/cummins_raw.png">
-                <br>
-                <a>Summer 2014</a>
-                <br>
-                <a>Summer 2015</a>
+        <div class="row">
+            <div class="col" style="display: inline-block; vertical-align: top; text-align: center;">
+                <img style="width: 80%; margin:0 auto;", src="../static/cummins_raw.png">
+            </div>
+            <div class="col" style="display: inline-block; vertical-align: top; text-align: center;">
+                <img style="width: 100%; margin:0 auto;", src="../static/harley2.png">
+            </div>
+            <div class="col" style="display: inline-block; vertical-align: top; text-align: center;">
+                <img style="width: 80%; margin:0 auto;", src="../static/miller_raw.jpeg">
             </div>
         </div>
-        <div class="container-fluid" style="float:left; width:33.3%; box-sizing:border-box;">
-            <div class="container-fluid" style="display: inline-block; text-align: center;">
-                <img style="width: 100%; margin:0 auto; vertical-align: center;", src="../static/harley2.png">
-                <br>
-                <a>Winter 2014</a>
+        <div class="row">
+            <div class="col">
+                <div class="intern-date">
+                    <a>Summer 2014</a>
+                    <br>
+                    <a>Summer 2015</a>
+                </div>
             </div>
-        </div>
-        <div class="container-fluid" style="float:left; width:33.3%; box-sizing:border-box;">
-            <div class="container-fluid" style="display: inline-block; vertical-align: middle; text-align: center;">
-                <img style="width: 100%; margin:0 auto;", src="../static/miller_raw.jpeg">
-                <br>
-                <a>Winter 2015</a>
+            <div class="col">
+                <div class="intern-date">
+                    <a>Winter 2014</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="intern-date">
+                    <a>Winter 2015</a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="clearfix"></div>
 </div>
 {% endblock %}

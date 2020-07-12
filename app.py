@@ -17,6 +17,8 @@ def education():
 @app.route('/style.css')
 def style():
     return url_for('static', 'style.css')
+    # required for browser to find the css file on the server
+    # https://flask.palletsprojects.com/en/1.1.x/quickstart/#static-files
 
 @app.route('/resume')
 def resume():

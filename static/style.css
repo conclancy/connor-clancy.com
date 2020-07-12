@@ -1,5 +1,26 @@
 .experience-title{
-    font-size: 10vw;
+    font-size: 2vw;
     float: left;
-    color: green;
+}
+
+.experience-date{
+    font-size: 2vw;
+    float: right;
+}
+.experience-body{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.intern-date{
+    padding-top: 10px;
+    font-size: 1vw;
+    vertical-align: middle;
+    text-align: center; 
+}
+
+.section-heading{
+    font-size: 3vw;
+    font-weight: bold;
+    margin-bottom: 10px;
 }

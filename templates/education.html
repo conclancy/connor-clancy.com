@@ -3,36 +3,77 @@
 
 {% block body %}
 <div class="container-fluid" style="padding-top: 10px;">
-    <h1>Education</h1>
+    <h1 class="section-heading">Education</h1>
     <div class="container", style="float:left; width:25%; border:1px; padding:10px; box-sizing:border-box;">
-        <img class="float-left" style="width: 200px" src="../static/mu.jpg">
-    </div>
-    <div class="align-middle", style="padding-top:10px;">
-        <div class="container", style="float:right; width:75%; border:1px; padding:10px; box-sizing:border-box;">
-            <div class="container">
-                <h4 class="float-left">Bachelor of Science in Business Administration</h4>
-                <h4 class="float-right">May 2016</h4>
-            </div>
-            <div class="clearfix"></div>
-            <div class="container">
-                <h6 class="float-left">Majors: Accounting</h6>
-            </div>
-            <div class="clearfix"></div>
-            <div class="container">
-                <h6 class="float-left", style="padding-left:60px">Operations and Supply Chain Management</h6>
-            </div>
-            <div class="clearfix"></div>
-            <div class="container">
-                <h6 class="float-left">GPA: 3.59/4.00</h6>
-            </div>
+        <div class="col" style="display: inline-block; vertical-align: top; text-align: center;">
+            <img style="width: 100%; margin:0 auto;", src="../static/mu.jpg">
         </div>
     </div>
+    <div class="container", style="float:right; width:75%; border:1px; box-sizing:border-box;">
         <div class="container">
-            
+            <div class="row">
+                <div class="col col-sm-8", style="text-align: left">
+                    <h4 class="experience-title">B.S. in Business Administration</h4>
+                </div>
+                <div class="col col-sm-4", style="text-align: right">
+                    <h4 class="experience-date">May 2016</h4>
+                </div>      
+            </div> 
+            <div class="row">
+                <div class="col col-sm-auto">
+                    <h6>Majors:</h6>
+                </div>
+                <div class="col col-sm-auto">
+                    <div class="row">
+                        <h6>Accounting</h6>
+                    </div>
+                    <div class="row">
+                        <h6>Operations & Supply Chain</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-sm-auto">
+                    <h6>3.59/4.00</h6>
+                </div>
+            </div>
         </div>
     </div>
     <div class="clearfix"></div>
-    <h1 style="padding-top: 50px;">Certifications</h1>
+    <h1 class ="section-heading" style="padding-top: 50px;">Certifications</h1>
+    <div class="container", style="float:left; width:25%; border:1px; padding:10px; box-sizing:border-box;">
+        <div class="col" style="display: inline-block; vertical-align: top; text-align: center;">
+            <img style="width: 100%; margin:0 auto;", src="../static/ga_long.jpeg">
+        </div>
+    </div>
+    <div class="container", style="float:right; width:75%; border:1px; box-sizing:border-box;">
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm-7", style="text-align: left">
+                    <h4 class="experience-title">Certified Data Scientist 1</h4>
+                </div>
+                <div class="col col-sm-5", style="text-align: right">
+                    <h4 class="experience-date">December 2019</h4>
+                </div>      
+            </div> 
+            <div class="row">
+                <div class="col col-sm-auto">
+                    <h6>General Assembly</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-sm-auto">
+                    <h6>
+                        Credential ID: 
+                        <a href="https://my.generalassemb.ly/awards/EMPYNKM5R" target="_blank">EMPYNKM5R</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!--START
     <div class="container", style="float:left; width:25%; border:1px; padding:10px; box-sizing:border-box;">
         <img class="float-left" style="width: 200px; vertical-align: middle; padding-left: 10px" src="../static/ga_long.jpeg">
     </div>
@@ -55,5 +96,5 @@
             </div>
         </div>
     </div>
-
+END-->
 {% endblock %}
